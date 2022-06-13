@@ -17,12 +17,12 @@ namespace Lessons9_FileManedger
         static void Main(string[] args)
         {
             Console.Title = "FileMenedger";
-
+            //test
             Console.SetWindowSize(A, B);
             Console.SetBufferSize(A, B);
 
             DesingWin1(0, 0, A, b1);
-            DesingWin1(0, b1+1, A, b2);
+            DesingWin1(0, b1+1, A, b2); 
             DesingWin1(0, b1+b2+2, A, b3);
             //MyLibrary1.MN1. (A, b1 + b2 + b3 + 3);
             MN1.MNKaidak(A, b1 + b2 + b3 + 3);
